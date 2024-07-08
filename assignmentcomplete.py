@@ -25,6 +25,15 @@ else:
 
 
 
+#Assignment 4
+
+essay = input("Enter your essay:") 
+print(essay)
+print(essay.replace(" ", ""))
+essay_count = len(essay.replace(" ","")) 
+number_of_words = essay_count // 6
+print(f"The number of words in your essay is {number_of_words} ")
+
 Assignment 3
 
 #input @ if a user does not input it
