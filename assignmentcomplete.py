@@ -25,27 +25,17 @@ else:
 
 
 
+Assignment 3
 
-#INCOMPLETE 3
+#input @ if a user does not input it
 email_entered = input("Enter your email here ")
-sign = "@"
-domain = "gmail.com"
+sign, domain = "@", "gmail.com"
 
-email_adress = email_entered + sign + domain
-no_sign = sign
-no_domain = domain
+email_adress = email_entered + sign 
 if sign not in email_entered:
-    print(email_entered + sign + domain)
-else:
-    print(f"{email_entered}{domain}")
-if domain not in email_entered:
-    email_entered.insert("@")
-    print(email_entered + no_domain)
+    print(email_entered [:-9] + sign + email_entered[-9:])
 else:
     print(email_entered)
-
-
-email_entered.replace()
 
 # Make a quiz with 10 questions is users ansewr it correctly add 1 to ther score
 
